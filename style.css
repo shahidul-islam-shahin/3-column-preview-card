@@ -71,6 +71,7 @@ p {
     font-family: 'Lexend Deca';
     transition: 0.3s;
     border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 
 .btn > .rgb-1 {
