@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-1 {
+    background: hsl(31, 77%, 52%);
+    padding: 30px;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+}
+
+.content-2 {
+    background: hsl(184, 100%, 22%);
+    padding: 30px;
+    flex: 1;
+}
+
+.content-3 {
+    background: hsl(179, 100%, 13%);
+    padding: 30px;
+    border-radius: 0px 10px 10px 0px;
+    flex: 1;
+
+}
+
+.detales > h1 {
+    color: #fff;
+    margin: 20px 0px 20px 0px;
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+}
+
+.detales > P {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    margin-bottom: 70px;
+    font-weight: 400;
+}
+
+
+.btn > button {
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    transition: 0.3s;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn > .rgb-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn > .rgb-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn > .rgb-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn > button:hover {
+    background: transparent;
+    color: hsl(0, 0%, 95%);
+}
