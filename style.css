@@ -46,14 +46,14 @@ p {
 
 }
 
-.detales > h1 {
+.details > h1 {
     color: #fff;
     margin: 20px 0px 20px 0px;
     font-family: 'Big Shoulders Display';
     text-transform: uppercase;
 }
 
-.detales > P {
+.details > P {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca';
     margin-bottom: 70px;
